@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ganeshdipdumbare/gospeedtest/speed"
-	"github.com/ganeshdipdumbare/gospeedtest/speed/fast"
+	"github.com/ganeshdipdumbare/gospeedtest/internal/speed"
+	"github.com/ganeshdipdumbare/gospeedtest/internal/speed/fast"
 
 	"github.com/charmbracelet/bubbles/spinner"
 	tea "github.com/charmbracelet/bubbletea"
