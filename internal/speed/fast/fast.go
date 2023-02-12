@@ -24,6 +24,15 @@ func (f *fastSpeed) GetSpeed() (*speed.GetSpeedResp, error) {
 	downloadSpeedResp := make(chan speed.NetSpeed)
 	uploadSpeedResp := make(chan speed.NetSpeed)
 
+	runOptions := &playwright.RunOptions{
+		Verbose: false,
+	}
+
+	err := playwright.Install(runOptions)
+	if err != nil {
+		log.Fatalf("could not install playwright dependencies: %v", err)
+	}
+
 	pw, err := playwright.Run()
 	if err != nil {
 		fmt.Println("Error:", err)
