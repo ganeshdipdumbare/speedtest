@@ -15,7 +15,7 @@ gospeedtest is a simple command line tool to test the internet speed.
     - Go 1.19
 - To install the tool, just run the following command
     ```bash
-    go install github.com/ganeshdipdumbare/gospeedtest@v0.1.0
+    go install github.com/ganeshdipdumbare/gospeedtest@v0.1.2
     ```
 ## Improvements
 - Add unit tests 
