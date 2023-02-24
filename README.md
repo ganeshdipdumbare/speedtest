@@ -12,11 +12,15 @@ speedtest is a simple command line tool to test the internet speed.
 
 ## Installation
 - Requirements:-
-    - Go 1.19
-- To install the tool, just run the following command
-    ```bash
-    go install github.com/ganeshdipdumbare/speedtest@v0.1.4
-    ```
+    - Without Golang 
+        ```bash
+        curl -sf https://gobinaries.com/ganeshdipdumbare/speedtest | sh
+        ```
+    - With Golang - Go 1.19+
+        - To install the tool, just run the following command
+        ```bash
+        go install github.com/ganeshdipdumbare/speedtest@v0.1.4
+        ```
 ## Improvements
 - Add unit tests 
 - Add other websites for speed check and allow user to select from the given options
