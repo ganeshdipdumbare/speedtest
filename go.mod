@@ -1,4 +1,4 @@
-module github.com/ganeshdipdumbare/gospeedtest
+module github.com/ganeshdipdumbare/speedtest
 
 go 1.19
 

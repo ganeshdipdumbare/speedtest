@@ -5,7 +5,7 @@ import (
 	"os"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/ganeshdipdumbare/gospeedtest/cmd"
+	"github.com/ganeshdipdumbare/speedtest/cmd"
 )
 
 func main() {

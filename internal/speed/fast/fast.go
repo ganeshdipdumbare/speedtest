@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/ganeshdipdumbare/gospeedtest/internal/speed"
+	"github.com/ganeshdipdumbare/speedtest/internal/speed"
 
 	"github.com/playwright-community/playwright-go"
 )
